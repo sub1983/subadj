@@ -15,7 +15,7 @@ spec:
             containers:
                 - name: example-api
                   imagePullPolicy: Never
-                  image: local/example:latest
+                  image: local/subinadj:latest
                   resources:
                       limits:
                           cpu: 50m
